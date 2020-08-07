@@ -401,7 +401,6 @@ li{
 } */
 
 .contact {
-    background-color: #fff;
     align-items: center;
     justify-content: center;
 }
@@ -420,130 +419,6 @@ li{
     margin-bottom: -2%;
 }
 
-.tpb {
-    border-radius: 5px;
-    padding: 12px ;
-    border:1px solid #562974;
-    display: none;
-    margin-top: 15px;
-}
-form{
-    margin-left: 15px;
-    width: 90%;
-}
-
-form label{
-    font-size: 2rem;
-}
-input,
-textarea{
-    width:100%;
-    padding: .8rem;
-    margin-bottom: 5px;
-    font-size: 1.7rem;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    font-family: 'Indie Flower', cursive;
-    border: none;
-    box-sizing: border-box;
-    border-bottom: 2px solid #562974;
-}
-input[type="submit"]{
-    width: initial;
-    font-family: sans-serif;
-    background-color: #c6a6db;
-    color: aliceblue;
-    padding: 1rem 2rem;
-    border-radius: .8rem;
-    border-bottom: none;
-}
-input[type="submit"]:hover{
-    background-color: #562974;
-}
-#startModal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    background-color: #ebf0f154;
-}
-
-.modal-content {
-    background-color: #fff;
-    margin: 3% auto;
-	color: #562974;
-    width: 30%;
-    border: 2px solid #562974;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 7px 20px 0 rgba(0, 0, 0, 0.17);
-    animation-name: modalopen;
-    animation-duration:1.5s;
-
-}
-
-.modal-header h2, .modal-footer h3{
-    margin: 0;
-}
-.modal-header {
-    padding: 15px;
-}
-.modal-header h2 {
-    font-family: 'Roboto', sans-serif;
-}
-.modal-body {
-    padding: 10px 20px;
-    font-size: 20px;
-    font-family: 'Indie Flower', cursive;
-}
-.modal-footer {
-    padding: 10px;
-    text-align: center;
-    font-size: 15px;
-    font-family: 'Indie Flower', cursive;
-}
-
-.closeBtn {
-    color: #562974;
-    float: right;
-    font-size: 40px;
-}
-
-.closeBtn:hover, .closeBtn:focus {
-    color: #bc75eb;
-    text-decoration: none;
-    cursor: pointer;
-}
-.feedBack-btn {
-    border-radius: 20px;
-    width: 120px;
-    margin-top: 15px ;
-    border: 1px solid #562974;
-    padding: 2px;
-    text-align: center;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-}
-.feedBack-btn:hover {
-    background-color: #562974;
-    color: #fff;
-}
-.feedBack-btn h2 {
-    color: #562974;
-}
-.feedBack-btn h2:hover {
-    color: #fff;
-}
-.feedBack-btn h2 span:hover {
-    color: #fff;
-}
-.container h2 span{
-    text-align: center;
-    color: rgb(94, 0, 117);
-}
 
 /*End contact*/
 
