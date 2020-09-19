@@ -336,6 +336,26 @@ li{
     margin-top: 10%;
     margin-left: 0;
 }
+.tpb {
+    padding: 10px;
+    border-radius: 15px;
+    width: 190px;
+    border: 0.5px solid #562974;
+}
+.tpb:hover{
+    background-color: #00000011;
+}
+.tpb-right{
+    text-align: right;
+    float: right;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0.5px solid #562974;
+    margin-top: -35px;
+}
+.tpb-right:hover {
+    background-color: #5a14ff21;
+}
 
 
 /*End contact*/
@@ -466,6 +486,7 @@ li{
         flex-direction: column;
     }
     .work-img{
+        width: 374px;
         margin: 0 0 2rem 0;
         order: 1;
     }
@@ -507,6 +528,16 @@ li{
         width: 300px;
         margin: 0;
         margin-bottom: 20px;
+    }
+    .tpb-right{
+        
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .tpb{
+
+        text-align: center;
     }
 }
 
