@@ -462,6 +462,7 @@ li{
 
     body{
         background: #fff;
+        overflow-x: hidden;
     }
     .menu-toggler{
         top: 2rem;
