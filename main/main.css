@@ -342,7 +342,8 @@ li{
     border: 0.5px solid #562974;
 }
 .tpb:hover{
-    background-color: #00000011;
+    background-color: rgba(5, 5, 17, 0.486);
+    color: #fff;
 }
 .tpb-right{
     text-align: right;
