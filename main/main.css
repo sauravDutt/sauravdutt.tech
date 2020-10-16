@@ -342,20 +342,9 @@ li{
     border: 0.5px solid #562974;
 }
 .tpb:hover{
-    background-color: rgba(5, 5, 17, 0.486);
-    color: #fff;
-}
-.tpb-right{
-    text-align: right;
-    float: right;
-    padding: 10px;
-    border-radius: 15px;
-    border: 0.5px solid #562974;
-    margin-top: -35px;
-}
-.tpb-right:hover {
     background-color: #5a14ff21;
 }
+
 
 
 /*End contact*/
