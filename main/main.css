@@ -27,6 +27,9 @@ body{
     background: url("images/sitebg.png") no-repeat center fixed;
     background-size: cover;
     overflow-x: hidden;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 body::-webkit-scrollbar {
@@ -39,7 +42,7 @@ body::-webkit-scrollbar {
   
   body::-webkit-scrollbar-thumb {
     border-radius: .8rem;
-    background: #562974;
+    background: #fff;
   }
 
 section{
